@@ -1,0 +1,15 @@
+{
+  "name": "college-union-platform-team",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "preview": "npm --prefix frontend run preview",
+    "install:frontend": "npm --prefix frontend install",
+    "postinstall": "npm --prefix frontend install"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
