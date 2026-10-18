@@ -1,13 +1,9 @@
 {
-  "name": "college-union-platform-team",
-  "private": true,
+  "name": "virtual-pooja-static-site",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "dev": "npm --prefix frontend run dev",
-    "build": "npm --prefix frontend run build",
-    "preview": "npm --prefix frontend run preview",
-    "install:frontend": "npm --prefix frontend install",
-    "postinstall": "npm --prefix frontend install"
+    "build": "node build.mjs"
   },
   "engines": {
     "node": ">=18.0.0"
